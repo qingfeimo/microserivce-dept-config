@@ -8,8 +8,8 @@ server:
 
 spring:
   profiles: dev #开发环境
-    application:
-      name: servicecloud-config-client
+  application:
+    name: servicecloud-config-client
 
 eureka:
   client:
@@ -21,8 +21,8 @@ server:
 
 spring:
   profiles: test #测试环境
-    application:
-      name: servicecloud-config-client
+  application:
+    name: servicecloud-config-client
 
 eureka:
   client:
